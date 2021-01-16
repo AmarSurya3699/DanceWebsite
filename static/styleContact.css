@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Padauk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Merriweather+Sans:ital,wght@1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    margin: 12px;
+}
+
+.container{
+    margin: 40px 0px;
+}
+
+.container h1{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: bold;
+}
+
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.myInput{
+    width: 471px;
+    padding: 7px;
+    margin: 2px;
+    font-size: 17px;
+    border: 2px solid #a100a4;
+    border-radius: 5px;
+    outline: none;
+    font-family: 'EB Garamond', serif;
+}
+
+.btn{
+    padding: 4px 25px;
+    font-size: 15px;
+    border: 2px solid #a100a4;
+    border-radius: 7px;
+    background: #7f007fc7;
+    color: white;
+    cursor: pointer;
+    margin: 20px;
+    outline: none;
+}
+
+.btn:hover{
+    background: #b800b8;
+}
+
+#footer{
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    height: 20px;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}

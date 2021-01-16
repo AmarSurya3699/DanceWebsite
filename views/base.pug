@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+    title Amar's Dance Academy
+    block scripts
+    block style
+  body
+    nav#navbar
+        ul
+            a(href="/"): div#logo
+                img(src="/static/img/d2.png")
+                |ADA
+
+            li #[a(href="/") About us]
+            li #[a(href="/") Our Services]
+            li #[a(href="/") Class Info]
+            li #[a(href="/contact") Contact us]
+            
+    block content
+    footer#footer
+        | Copyright © 2020-2021 AmarDanceAcademy.com® | All rights reserved

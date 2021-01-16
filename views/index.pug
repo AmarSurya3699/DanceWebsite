@@ -1,0 +1,63 @@
+//- index.pug
+doctype html
+html
+  head
+    title Amar's Dance Academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        ul
+            a(href="/"): div#logo
+                img(src="/static/img/d2.png")
+                |ADA
+
+            li #[a(href="/") About us]
+            li #[a(href="/") Our Services]
+            li #[a(href="/") Class Info]
+            li #[a(href="/") Contact us]
+
+    section#introSection
+        div Welcome to Amar's Dance Academy
+        div.small "Eat Sleep Dance Repeat"
+
+    section#missionSection
+        h2 Our Mission
+        div.card
+            h3 Dance Perfection
+            div.card-box
+                div.card-img
+                    img(src="/static/img/d5.png", alt="")
+                div.card-content
+                    p This is the best dance academy of India Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores porro delectus sequi alias repellendus? Iste fugiat voluptates natus doloribus corporis?
+
+        div.card
+            h3 Dance the way you like
+            div.card-box
+                div.card-img
+                    img(src="/static/img/d3.png", alt="")
+                div.card-content
+                    p This is the best dance academy of India Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde illum repellat animi architecto ratione nostrum! Numquam consectetur harum quod atque!
+
+        div.card
+            h3 Expert Teaching
+            div.card-box
+                div.card-img
+                    img(src="/static/img/d4.png", alt="")
+                div.card-content
+                    p This is the best dance academy of India Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, unde! Ipsam eveniet id veritatis, nesciunt consequatur iure ea facere aspernatur.
+
+    section#sponsorsSection
+        h2 Our Sponsors
+        div#sponsors
+            img(src="/static/img/logo1.png", alt="Sponsor Image", Class="spImage")
+            img(src="/static/img/logo2.png", alt="Sponsor Image", Class="spImage")
+            img(src="/static/img/logo3.png", alt="Sponsor Image", Class="spImage")
+            img(src="/static/img/logo4.png", alt="Sponsor Image", Class="spImage")
+            img(src="/static/img/logo5.png", alt="Sponsor Image", Class="spImage")
+
+    footer#footer
+        | Copyright © 2020-2021 AmarDanceAcademy.com® | All rights reserved
+
+    script
+      include ../static/index.js
